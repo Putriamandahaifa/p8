@@ -44,7 +44,7 @@
                             <x-input-error class="mt-2" :messages="$errors->get('city')" />
                         </div>
                         <div class="max-w-xl">
-                            <x-input-label for="bookshelf" value="Kategori RakBuku" />
+                            <x-input-label for="bookshelf" value="Kategori Rak Buku" />
                             <x-select-input id="bookshelf" name="bookshelf_id" class="mt-1 block w-full" required>
                                 <option value="">Open this select menu</option>
                                 @foreach ($bookshelves as $key => $value)
